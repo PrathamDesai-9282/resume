@@ -1451,6 +1451,52 @@ section,
   color: var(--accent-color);
 }
 
+/* Credit Line Section Styles */
+.credit-line {
+  position: absolute;
+  bottom: -80px;
+  left: 44%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 25px 15px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.credit-line:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.credit-line p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.credit-line strong {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .credit-line {
+    padding: 20px 10px;
+    font-size: 15px;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
